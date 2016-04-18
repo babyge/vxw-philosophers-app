@@ -1,0 +1,21 @@
+{
+  "_comment": [
+     "config.json: For Dining Philosophers example",
+     "Modification History:",
+     "20jul15,ed   Initial version",
+     "08aug15,ed   Added lang, visiility & executable tags"
+     ],
+  "icon": "images/workbench-icon_20x20.png",
+  "name": "Dining Philosophers",
+  "description":"An multi-threaded example program for VxWorks",
+  "tags": [
+     "vxworks-7"
+  ],
+  "lang":"C",
+  "cmds": {
+    "clone": "mkdir %dest%;cd %dest%;cp -rp %src%/* .;rm ./config.json"
+  },
+  "doc": "docs/description.md",
+  "visibility": "local",
+  "executable": "bin/%projname%"
+}

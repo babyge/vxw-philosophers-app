@@ -2,8 +2,7 @@
   "_comment": [
      "config.json: For Dining Philosophers example",
      "Modification History:",
-     "20jul15,ed   Initial version",
-     "08aug15,ed   Added lang, visiility & executable tags"
+     "18apr16,m_h   Initial version"
      ],
   "icon": "images/workbench-icon_20x20.png",
   "name": "Dining Philosophers",
@@ -13,9 +12,14 @@
   ],
   "lang":"C",
   "cmds": {
-    "clone": "mkdir %dest%;cd %dest%;cp -rp %src%/* .;rm ./config.json"
+     "clone":"prjClone.sh -cfg %config% -prj %dest%"
   },
   "doc": "docs/description.md",
   "visibility": "local",
-  "executable": "bin/%projname%"
+  "executable": "bin/%projname%",
+  "type": "application",
+  "project_data": {
+    "init_clone":
+        { "fetch": { "scm":"git", "url":"git@github.com:wind-river-vxworks7/vxw-philosophers-app.git" } }
+  }
 }

@@ -36,10 +36,11 @@ use the resource).
 ## Sample Output
 
 ```
-Philosopher 0 EATING
-Philosopher 1 THINKING
-Philosopher 2 THINKING
-Philosopher 3 EATING
-Philosopher 4 THINKING
-Philosopher 5 THINKING
+Philosopher 1 wants to eat.
+Philosopher 1 must wait to use the fork 1.
+Philosopher 1 requested usage of the fork 2.
+Philosopher 3 requested usage of the fork 3.
+Philosopher 2 is thinking...
+Philosopher 5 is eating...
+Philosopher 1 requested usage of the fork 1.
 ```

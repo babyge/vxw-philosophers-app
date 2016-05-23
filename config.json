@@ -7,6 +7,13 @@
   "icon": "images/workbench-icon_20x20.png",
   "name": "Dining Philosophers",
   "description":"An multi-threaded example program for VxWorks",
+  "key": "vxw-philosophers-app",
+  "license": [
+     {
+     "type": "BSD-3-Clause",
+     "url": "http://spdx.org/licenses/BSD-3-Clause.html"
+     }
+   ],
   "tags": [
      "vxworks-7"
   ],
